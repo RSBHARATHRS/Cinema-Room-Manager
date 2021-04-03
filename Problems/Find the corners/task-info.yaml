@@ -1,0 +1,19 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    class ArrayOperations {
+        public static void printCorners(int[][] twoDimArray) {
+            // write your code here
+
+        }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/12443#comment
+status: Failed
+feedback:
+  message: |
+    Failed test #1 of 8. Wrong answer
+  time: Fri, 26 Mar 2021 12:41:05 UTC
+record: -1

@@ -1,0 +1,24 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    public class Main {
+
+        public static void main(String[] args) {
+
+            System.out.println("Print it!");
+            // System.out.println("No, print it!");
+            /* System.out.println("Uncomment this line!"); */
+            System.out.println("Please, comment this line!");
+            System.out.println("Display this text!");
+            //// System.out.println("Do not comment it!");
+        }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/2498#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Fri, 12 Mar 2021 04:56:06 UTC
+record: -1

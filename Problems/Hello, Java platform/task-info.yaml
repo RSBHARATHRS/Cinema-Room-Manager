@@ -1,0 +1,23 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    public class Main {
+
+        public static void main(String[] args) {
+
+            System.out.print("Hello, ");
+            System.out.print("world");
+            System.out.print(" and ");
+            System.out.print("Java");
+            System.out.print(" platform");
+        }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/2162#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Fri, 12 Mar 2021 04:51:25 UTC
+record: -1

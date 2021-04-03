@@ -1,0 +1,18 @@
+type: code
+custom_name: Does an array contain N?
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    class Main {
+        public static void main(String[] args) {
+            // put your code here
+        }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/2131#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Wed, 24 Mar 2021 15:46:09 UTC
+record: -1
