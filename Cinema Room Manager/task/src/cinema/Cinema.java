@@ -96,7 +96,6 @@ public class Cinema {
                     System.out.println("$8");
                     currentIncome += 8;
                 }
-
                 seatArr[rowsNo - 1][columnNo - 1] = 'B';
                 noOfPurchasedTickets += 1;
             }
