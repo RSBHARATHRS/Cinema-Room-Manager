@@ -8,9 +8,8 @@ public class Cinema {
     public static int currentIncome = 0;
 
     public static void main(String[] args) {
-
+        
         Scanner sc = new Scanner(System.in);
-
         //___getting no of rows and columns
         System.out.println("Enter the number of rows:");
         int rows = sc.nextInt();
@@ -20,7 +19,6 @@ public class Cinema {
         for (int i = 0; i < seatArrangements.length; i++) {
             Arrays.fill(seatArrangements[i], 'S');
         }
-
         //___Showing Menu
         int ch;
         do {
@@ -43,7 +41,6 @@ public class Cinema {
             }
         } while (true);
     }  //  End of Main Method
-
 
     //_____________________________Method for show seating arrangements______________________________//
     public static void showTheSeats(int rows, int columns, char[][] seatArr) {
@@ -74,12 +71,12 @@ public class Cinema {
             int rowsNo = sc.nextInt();
             System.out.println("Enter a seat number in that row:");
             int columnNo = sc.nextInt();
-
+            //___Check entered seat number in valid or not
             if (rowsNo > rows || columnNo > columns) {
                 System.out.println("Wrong input!\n");
                 continue;
             }
-
+            //___Check whether the seat is available or not
             if (seatArr[rowsNo - 1][columnNo - 1] == 'B') {
                 System.out.println("That ticket has already been purchased!\n");
             } else {
@@ -99,9 +96,7 @@ public class Cinema {
                 seatArr[rowsNo - 1][columnNo - 1] = 'B';
                 noOfPurchasedTickets += 1;
             }
-        } while (!booked);
-
-
+        } while (!booked); //___until seat booked the
     }
     //************************************************************************************************//
 
